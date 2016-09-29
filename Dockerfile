@@ -3,7 +3,7 @@ MAINTAINER Jason Kraus "jkraus@editllc.com"
 
 RUN apt-get update
 RUN apt-get upgrade -y
-RUN apt-get install -y libgeos-dev libgdal-dev libgit2-dev
+RUN apt-get install -y libgeos-dev libgdal-dev
 RUN apt-get install -y git-core gcc g++ make libffi-dev libssl-dev python3-dev build-essential libpq-dev libmemcached-dev curl
 RUN apt-get install -y libtiff5-dev libjpeg-dev libfreetype6-dev webp zlib1g-dev pcre++-dev
 #liblcms2-dbg musl-dev
